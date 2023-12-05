@@ -9,7 +9,7 @@ class PetShopPet(models.Model):
     
     bio = fields.Text(string='Bio', help="Pet bio with his history")
 
-    sex = fields.Selection(string='Sex', seletion=[
+    sex = fields.Selection(string='Sex', selection=[
             ('male', 'Male'),
             ('female', 'Female'),
         ])
