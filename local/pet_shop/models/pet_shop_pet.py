@@ -24,4 +24,4 @@ class PetShopPet(models.Model):
 
     age = fields.Integer(string='Age')
 
-    weight = fields.Float(string='Weigth', digits=(5, 2))
+    weight = fields.Float(string='Weight', digits=(5, 2))
